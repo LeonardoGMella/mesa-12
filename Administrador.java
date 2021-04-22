@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Administrador implements Serializable {
     @Id
   private Proveedor proveedores;  
-
+    private String nombre;
     public Administrador() {
     }
 
