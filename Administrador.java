@@ -10,6 +10,7 @@ public class Administrador implements Serializable {
     @Id
   private Proveedor proveedores;  
     private String nombre;
+    private String ayudame_gbus;
     public Administrador() {
     }
 
